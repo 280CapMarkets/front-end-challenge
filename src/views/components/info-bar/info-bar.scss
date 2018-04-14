@@ -1,0 +1,31 @@
+.infoBar {
+	position: fixed;
+	width: 100vw;
+	color: #999;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 1em;
+	top: 0;
+	font-size: 14px;
+	font-family: helvetica, sans-serif;
+	.score {
+		float: left;
+		margin-left: 20px;
+	}
+	.level {
+		float: left;
+	}
+	.bonus {
+		float: right;
+		margin-right: 2em;
+		font-weight: bold;
+		&.bonus-green {
+			color: lawngreen;
+		}
+		&.bonus-yellow {
+			color: yellow;
+		}
+		&.bonus-red {
+			color: red;
+		}
+	}
+}
